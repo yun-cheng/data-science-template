@@ -26,7 +26,8 @@
 				"eamodio.gitlens",
 				"REditorSupport.r",
 				"RDebugger.r-debugger",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"eamodio.gitlens"
 			]
 		}
 	},

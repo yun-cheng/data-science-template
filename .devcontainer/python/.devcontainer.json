@@ -31,7 +31,8 @@
 				"KevinRose.vsc-python-indent",
 				"VisualStudioExptTeam.vscodeintellicode",
 				"geddski.macros",
-				"ms-python.black-formatter"
+				"ms-python.black-formatter",
+				"eamodio.gitlens"
 			]
 		}
 	},

@@ -1,12 +1,14 @@
 # https://github.com/github/gitignore/blob/main/Python.gitignore
 
+.env
+
 __pycache__/
 *.py[cod]
-
-.env
 
 # .vscode/
 
 .idea/
 
 # .rstudio_config/
+
+!**/.gitkeep
