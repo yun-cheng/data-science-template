@@ -6,8 +6,8 @@
 ├── src/
 │   ├── common/                 <- 放不同階段會共用的程式碼，或無關階段會使用的程式碼
 │   │   └── common.R            <- import packages
-│   ├── s0_pre_process/         <- 各階段用 s0, s1, ... 開頭，後面接階段名稱
-│   └── s1_first_process/
+│   ├── s01_pre_process/        <- 各階段用 s0, s1, ... 開頭，後面接階段名稱
+│   └── s11_first_process/
 ├── data/
 │   ├── raw/                    <- 放原始資料
 │   ├── interim/                <- 放處理過但未處理完成的資料
