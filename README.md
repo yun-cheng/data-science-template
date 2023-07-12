@@ -4,8 +4,9 @@
 
 ```text
 ├── src/
-│   ├── common/                 <- 放不同階段會共用的程式碼，或無關階段會使用的程式碼
+│   ├── common/                 <- 放會共用的程式碼
 │   │   └── common.R            <- import packages
+│   ├── exploring/              <- 放資料探勘等程式碼
 │   ├── s01_pre_process/        <- 各階段用 s0, s1, ... 開頭，後面接階段名稱
 │   └── s11_first_process/
 ├── data/
@@ -16,6 +17,7 @@
 │   └── temp/                   <- 放暫存資料
 ├── results/                    <- 放輸出結果
 ├── references/                 <- 放參考文件
+├── logs/                       <- 放 logs
 ├── .devcontainer/              <- dev containers 相關設定
 │   ├── python/
 │   │   ├── .devcontainer.json
